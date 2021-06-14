@@ -25,3 +25,32 @@
   width: 100%;
   margin: 0;
 }
+
+.header .wrap .callToActions {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+.header .wrap .callToActions ul,
+.header .wrap .callToActions li {
+  margin: 0;
+  padding: 0;
+}
+
+.header .wrap .callToActions li {
+  list-style-type: none;
+}
+
+.header .wrap .callToActions li a {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  font-weight: 300;
+  color: #3bcfb2;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
