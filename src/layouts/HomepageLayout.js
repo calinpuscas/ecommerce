@@ -2,10 +2,10 @@ import React from "react";
 import Header from "./../components/Header";
 import Footer from "./../components/Footer";
 
-const HopepageLayout = (props) => {
+const HomepageLayout = (props) => {
   return (
     <div className="fullHeight">
-      <Header />
+      <Header {...props} />
 
       {props.children}
       <Footer />
@@ -13,4 +13,4 @@ const HopepageLayout = (props) => {
   );
 };
 
-export default HopepageLayout;
+export default HomepageLayout;
