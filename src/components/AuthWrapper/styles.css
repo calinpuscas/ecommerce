@@ -1,4 +1,4 @@
-.signin {
+.authWrapper {
   display: block;
   width: 100%;
   height: 65vh;
@@ -10,21 +10,21 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.signin input {
+.authWrapper input {
   margin: 2rem 0;
 }
 
-.signin .wrap {
+.authWrapper .wrap {
   padding: 2rem;
 }
 
-.signin .wrap h2 {
+.authWrapper .wrap h2 {
   font-size: 3rem;
-  line-height: 2rem;
+  line-height: 5rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2rem;
-  margin: 6rem auto;
+  margin: 3rem auto;
   padding: 0;
   text-align: center;
   display: block;
@@ -33,18 +33,6 @@
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.signin .wrap .socialSignin {
+.authWrapper .wrap .socialSignin {
   margin: 10rem auto 0;
-}
-
-.links {
-  display: block;
-  width: 100%;
-  font-size: 2rem;
-  margin: 4rem 7rem;
-}
-
-.links a {
-  color: red;
-  padding: 2rem auto;
 }
